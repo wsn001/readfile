@@ -3,7 +3,7 @@ import argparse
 from multiprocessing.dummy import Pool
 
 def main():
-    parse = argparse.ArgumentParser(description="易宝OA系统DownloadFile接口文件读取漏洞")
+    parse = argparse.ArgumentParser(description="惠尔顿-网络安全审计系统任意文件读取漏洞")
     parse.add_argument('-u', '--url', dest='url', type=str, help='Please input url')
     parse.add_argument('-f', '--file', dest='file', type=str, help='Please input file')
     args = parse.parse_args()
